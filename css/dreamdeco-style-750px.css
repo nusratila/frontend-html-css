@@ -1,32 +1,33 @@
-.body-container {
-    display: block;
+
+.sidebar-container{
+    order: -1;
+    width: 25%;
+    height: 100%;
 }
-.page-header {
-    margin-right: 30pt;
+
+.main-container{
+    width: 75%;
 }
+
+
 .page-header h1{
     font-size: 30pt;
+    margin-right: 30pt;
 }
              
 .sidebar {
-    width: 25%;
-    height: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: .3rem;
+    height: 100%;
+    width: 25%;
+    order: 1;
     background-color: gray;
     font-size: 10pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .top {
-    width: 75%;
     height: 150px;
-    float: right;
 }
-
 
 
 .menu li {
@@ -34,24 +35,16 @@
     font-size: 12pt;
 }
 
-.cover {
-    width: 75%;
-}
 
 #cover-image {
     width: 96%;
-    margin: 2%;
 }
 
 .description {
-    width: 74%;
     text-align: center;
     font-size: 13pt;
 }
 
-.all-projects {
-    width: 75%;
-}
 
 .project {
     width: 30%;
@@ -62,13 +55,11 @@
     width: 500px;
     height: 350px;
 }
+
 section li {
     font-size: 15pt;
     margin: 20px;
     margin: .5rem;
     padding: .3rem;
-}
-.fb-page{
-    width: 83%;
 }
 

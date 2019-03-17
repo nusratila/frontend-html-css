@@ -1,31 +1,25 @@
-.sidebar {
+
+.sidebar-container{
     width: 15%;
 }
 
-.top {
+.main-container{
     width: 85%;
 }
 
-
+.sidebar{
+    width: 15%;
+}
 
 .menu li {
     margin: 30pt; 
     font-size: 14pt;
 }
 
-.cover {
-    width: 85%;
-}
-
-
-
-.description {
-    width: 83%;
-}
-
 .all-projects {
-    width: 85%;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .projects-image {

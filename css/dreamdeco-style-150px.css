@@ -1,43 +1,56 @@
 .body-container {
     display: flex;
     flex-wrap: wrap;
+}
 
+.sidebar-container{
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .page-header {
-    float: right;
-    margin-right: 5pt;
+    width: 50%;
 }
+
 .page-header h1{
     font-family: cursive;
     color: green; 
     font-size: 20pt;
+    text-align: right;
+    margin-right: 20pt;
 }
              
 .sidebar {
-    order: 5;
     font-size: 10pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 .top {
-    order: 1;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 60px;
-    float: right;
 }
-
 
 #logo {
     height: 100%;
 }
 
 .logo {
-    float: left;
+   width: 50%;
     height: 100%;
 }
 
 .menu {
+    width: 100%;
     list-style: none;
     list-style-type: none;
 }
@@ -50,21 +63,18 @@
 }
 
 .cover {
-    order: 2;
+    
     width: 100%;
-    float: right;
     text-align: right;
 }
 
-#cover_image {
+#cover-image {
     width: 100%;
     margin: 0%;
 }
 
 .description {
-    order: 3;
     width: 100%;
-    float: right;
     text-align: left;
     font-size: 11pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -76,10 +86,8 @@
 }
 
 .all-projects {
-    order: 4;
     width: 100%;
     display: block;
-    float: right;
 }
 
 .project {
@@ -105,9 +113,8 @@ section li {
 }
 
 .fb-page{
-    order: 6;
+    order: 3;
     width: 100%;
-    float: right;
     text-align: center;
     font-size: 14pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
